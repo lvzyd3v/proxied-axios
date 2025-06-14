@@ -1,0 +1,35 @@
+{
+  "name": "proxied-axios",
+  "version": "1.2.1",
+  "description": "Proxied Axios implementation that downloads proxies from a URL and refreshes them periodically",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "type": "module",
+  "bin": {
+    "proxied-axios": "./src/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvzyd3v/proxied-axios.git"
+  },
+  "homepage": "https://github.com/lvzyd3v/proxied-axios#readme",
+  "bugs": {
+    "url": "https://github.com/lvzyd3v/proxied-axios/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "axios",
+    "proxy",
+    "socks5",
+    "http-client"
+  ],
+  "author": "lvzyd3v <lvzyd3v@proton.me>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "fs": "^0.0.1-security",
+    "socks-proxy-agent": "^8.0.4"
+  }
+}
